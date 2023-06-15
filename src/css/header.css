@@ -1,0 +1,8 @@
+nav{
+    background: rgb(9,15,125);
+    background: linear-gradient(90deg, rgba(9,15,125,1) 0%, rgba(0,52,252,1) 5%, rgba(9,15,125,1) 70%, rgba(0,212,255,1) 100%);
+}
+.logo__img{
+    height: 10vh;
+    width: 20vh;
+}

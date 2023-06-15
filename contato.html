@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/VarReset.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <title>Pacheco Cursos e Treinamentos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar  navbar-expand-sm">
+            <div class="container-fluid col-11">
+                <img class="logo__img" src="src/imagens/LOGOPRETO.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="index.html">Página Incial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="cursosetreinamentos.html">Cursos e Treinamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container mt-3 text-center active">
+        <div class="row">
+            <div class="col-6 borda bg-dark">
+                <div class="text-start">
+                    <h4 class="light">entre em contato e crie uma conta conosco!</h4>
+                </div>
+                <form action="formLogin()">
+                    <div class="mt-5 input-group">
+                        <span class="input-group-text">Nome e Sobrenome</span>
+                        <input type="text" id="nomeClien" aria-label="Nome" class="form-control" placeholder="Nome">
+                        <input type="text" id="sobrenomeClien" aria-label="Sobrenome" class="form-control" placeholder="Sobrenome">
+                        <div class=" mt-2 input-group flex-nowrap ">
+                            <span class="input-group-text" id="addon-wrapping">@</span>
+                            <input type="text" class="form-control" id="email" placeholder="email" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="input-group mt-2 mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Curso Desejado</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option value="0" selected>Selecionar...</option>
+                                <option value="1">Primeiros socorros</option>
+                                <option value="2">Resgate em Ambientes confinados</option>
+                                <option value="3">Inspeção de EPIs</option>
+                                <option value="4">Rapel</option>
+                                <option value="5">Trabalho em Altura</option>
+                                <option value="6">Palestras</option>
+                                <option value="7">montagem de andaimes</option>
+                                <option value="8">Card title </option>
+                                <option value="9">Combate a incendios</option>
+                                <option value="10">Consultoria</option>
+                            </select>
+                        </div>
+                        <button type="button" accesskey="enter" class="btn btn-success" onclick="formSign()">Enviar!</button>
+                    </div>
+                </div>
+            </form>
+                <div class="container bg-dark mt-5 me-2 col-5 borda__login">
+            <form id="formLogin">
+                    <div >
+                        <h4 class="light">Ja possui cadastro? acesse aqui!</h4>
+                    </div>
+                    <span class="input-group-text mb-1">Nome e Sobrenome</span>
+                    <input type="text" aria-label="Nome" class="form-control mb-1" placeholder="Nome" id="cadNome">
+                    <input type="text" id="cadSobreNome" aria-label="Sobrenome" class="form-control mb-1" placeholder="Sobrenome">
+                    <div class=" mt-2 input-group flex-nowrap ">
+                        <span class="input-group-text mb-1" id="addon-wrapping">senha</span>
+                        <input type="text" id="senhaCad" class="form-control mb-1" placeholder="senha" aria-label="Username"aria-describedby="addon-wrapping">
+                    </div>
+                    <div class=" mt-2 input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="email" id="email" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <button type="button" onclick="formLogin()" class="alinhamento__botao btn btn-success mt-1">Enviar!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+<script src="/backup/src/Js/index.js"></script>
+</body>

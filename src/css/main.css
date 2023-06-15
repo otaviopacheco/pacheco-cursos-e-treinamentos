@@ -1,0 +1,67 @@
+.img__carrossel{
+    height: 80vh;
+    width: 100vh;
+    border-radius:1vh ;
+}
+.borda{
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+.apresentacao__img{
+    margin-left:.1vh;
+    border-radius:350px;
+    background-color: black;
+    height: 25vh;
+    width: 25vh;
+}  
+.alinhamento__botao{
+    justify-content: start;
+}
+h4 {
+    margin-top: 7vh;
+}
+.borda__login{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card-img-top{
+    margin-top: 1vh;
+    margin-left: 4.1vh;
+    margin-right: 0.1;
+    height: 30vh;
+    width: 30vh;
+    border-radius:5px;
+} 
+.text__color{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgba(9,15,125,1)
+}
+.container__img{
+    align-items: center;
+    text-align: center;
+}
+.alinhamento{
+    margin-top: 20vh;;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;   
+}
+
+.row__destaques{
+    text-align: center;
+    margin-left: 10vh;
+}
+.card-body{
+    height: 30vh;
+    overflow-y: scroll; 
+}
+.card__img-lg{
+    height: 40vh;
+    width: 70vh;
+    margin: 1vh 0 5vh 5vh;
+    border-radius: 5px;
+}
